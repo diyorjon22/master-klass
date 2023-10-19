@@ -1,0 +1,24 @@
+.information-box h1 {
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 50px;
+}
+
+.icon-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 80px;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+.icon-first {
+    text-align: center;
+}
+
+.icon-first img {
+    max-width: 100px;
+    width: 100%;
+}
